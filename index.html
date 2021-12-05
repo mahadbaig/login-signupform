@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="login-form">
+            <h2>
+                Login your account
+            </h2>
+            <div class="input">
+
+                <form action="">
+                    <label for="email">E-mail</label> <br>
+                    <input type="email" required id="email"> <br>
+
+                    <label for="password">Password</label> <br>
+                    <input type="password" required id="password">
+                    <span>
+                        <i class="fas fa-eye" id="passicon" onclick="showpass()"></i>
+                        <p>Show password</p>
+                    </span>
+            </div>
+            <button>Login</button>
+            </form>
+            <h5>
+                Don't have an account? <a href="signuppage.html">Signup here</a>
+            </h5>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+
+</html>
